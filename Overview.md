@@ -5,7 +5,7 @@
 ### The purpose
 Selenium is an open source automated testing framework that can be used to do a plethora of testing. It works in C#, Java, JavaScript, Ruby, Python and PHP. [1](https://www.alphabold.com/selecting-a-programming-language-for-selenium-webdriver/)
 
- Selenium is a suite of software, each piece being able to do different testing for different needs of whoever uses it. Precisely, WebDriver is a library component of the Selenium suite used for browser automation.  Browser automation is testing software in a web browser with automated solutions. WebDriver can fill out forms, navigate through websites and extract data. This is important for testing and building higher quality software. Manual testing simply does not cut it anymore as there are many browsers that require many tests. Using a testing library like Selenium allows us to redo the tests on multiple browsers and reduce the risk of human errors. [2](https://www.browserstack.com/guide/what-is-browser-automation)
+ Selenium is a suite of software, each piece being able to do different testing for different needs of whoever uses it. Precisely, WebDriver is a library component of the Selenium suite used for browser automation.  Browser automation is testing software in a web browser with automated solutions. WebDriver can fill out forms, navigate through websites and extract data. This is important for testing and building higher quality software. Manual testing simply does not cut it anymore as there are many browsers that require tests. Using a testing library like Selenium allows us to redo the tests on multiple browsers and reduce the risk of human errors. [2](https://www.browserstack.com/guide/what-is-browser-automation)
 Selenium also works on a variety of browsers, including all the main ones.
 
 ### How to use it 
@@ -33,7 +33,7 @@ By creating a program to test your website or web app with WebDriver, you can th
 
 #### Extracting
 The main feature of WebDriver (as mentioned above) is getting information from specific web elements. You can do this by locating an element by name, class name, id name, or XPath. HTML knowledge comes in handy here. You can do so by right clicking on an element in your browser>inspect and copying the highlighted element's XPath. The XPath is usually the more foolproof way of getting the element you want.
-![getting xpath](https://imageupload.io/MGsnc5woAehbT2z)
+![image](https://imageupload.io/ib/ZEj44a4UNGLBRmZ_1697063726.png)
 
 ```python
 crypto = browser.find_elements(By.XPATH, '//td[@class="Va(m) Ta(start) Px(10px) Fz(s)"]')
@@ -48,9 +48,7 @@ input_element = driver.find_element_by_name("username")
 input_element.send_keys("example_username")
 input_element.send_keys(Keys.ENTER)
 ```
-Here we locate the text box "username" on the page and enter "example_username" into it, we then simulate hitting the enter key. 
-
-We can also use .clear() on input_element to remove whatever text has been added into it.
+Here we locate the text box "username" on the page and enter "example_username" into it, we then simulate hitting the enter key. We can also use .clear() on input_element to remove whatever text has been added into it.
 
 #### Clicking: to simulate a button click on our opened website, we can use the .click feature.
 
@@ -73,6 +71,8 @@ File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
 
 The first line converts the web driver object to take a screenshot and the second one instructs it to create a file for it.
 [5] https://www.browserstack.com/guide/take-screenshots-in-selenium
+
+
 
 
 
