@@ -1,5 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/oB7VDeFN)
-# ExplorationActivity1
+# ExplorationActivity1 README.md
+## By Edouard Levesque
 ### Which library my sample program demonstrates
 
 My sample program demonstrates the use of web scraping (computer getting information from websites by itself) using the [Selenium](https://www.browserstack.com/selenium) library. This is a library that is used for browser automation and testing websites. 
@@ -30,3 +31,9 @@ My program scrapes the Yahoo! Finance website for a list of the top 50 cryptocur
 ### Input and output examples
 
 After running the programs, you should see the list of scraped currencies from the Yahoo website. 
+
+![List](https://github.com/CS2613-FA23/explorationactivity1-edouardlev/blob/main/Screenshot%202023-10-09%20at%204.24.16%20PM.png?raw=true)
+
+You should then be prompted with which price you would like to see, let's try #49, Kava.
+
+
