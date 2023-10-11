@@ -33,7 +33,7 @@ By creating a program to test your website or web app with WebDriver, you can th
 
 #### Extracting
 The main feature of WebDriver (as mentioned above) is getting information from specific web elements. You can do this by locating an element by name, class name, id name, or XPath. HTML knowledge comes in handy here. You can do so by right clicking on an element in your browser>inspect and copying the highlighted element's XPath. The XPath is usually the more foolproof way of getting the element you want.
-![getting xpath](https://ibb.co/nkDwnqR)
+![getting xpath](https://imageupload.io/MGsnc5woAehbT2z)
 
 ```python
 crypto = browser.find_elements(By.XPATH, '//td[@class="Va(m) Ta(start) Px(10px) Fz(s)"]')
