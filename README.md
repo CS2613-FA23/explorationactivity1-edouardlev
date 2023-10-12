@@ -3,7 +3,7 @@
 ## By Edouard Levesque
 ### Which library my sample program demonstrates
 
-My sample program demonstrates the use of web scraping (computer getting information from websites by itself) using the [Selenium](https://www.browserstack.com/selenium) library. This is a library that is used for browser automation and testing websites. 
+My sample program demonstrates the use of web scraping (computer getting information from websites by itself) using the [Selenium](https://www.browserstack.com/selenium) WebDriver library. This is a library that is used for browser automation and testing websites. 
 
 ### How to run my sample program
 
@@ -32,8 +32,22 @@ My program scrapes the Yahoo! Finance website for a list of the top 50 cryptocur
 
 After running the programs, you should see the list of scraped currencies from the Yahoo website. 
 
-![List](https://github.com/CS2613-FA23/explorationactivity1-edouardlev/blob/main/Screenshot%202023-10-09%20at%204.24.16%20PM.png?raw=true)
+![List](https://i.ibb.co/PzQj062/Screenshot-2023-10-09-at-4-24-16-PM.png)
 
-You should then be prompted with which price you would like to see, let's try #49, Kava.
+You should then be prompted with which price you would like to see, let's try #49, Kava. All we need to do is input the id number and hit the enter key.
 
+![inp](https://i.ibb.co/RBmhrxs/Screenshot-2023-10-09-at-4-41-55-PM.png)
+
+Let's see if the price matches...
+![proof](https://i.ibb.co/pnxpCxJ/Screenshot-2023-10-09-at-4-41-31-PM.png) 
+
+We can see that it does match, the actual website seems to round their price up when displaying.
+
+Let's try another one
+
+![inp2](https://i.ibb.co/3M6gjqm/Screenshot-2023-10-11-at-10-56-35-PM.png)
+
+![proof2](https://i.ibb.co/72XCcxP/Screenshot-2023-10-11-at-10-56-45-PM.png)
+
+Once again it does match.
 
